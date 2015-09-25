@@ -1,0 +1,31 @@
+{
+  "name": "sorting-algorithms",
+  "version": "1.0.0",
+  "description": "Implement Five Different Sorting Algorithms [bubble sort • merge sort • insertion sort • selection sort • quick sort]",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evermuse/sorting-algorithms.git"
+  },
+  "keywords": [
+    "sort",
+    "bubble",
+    "merge",
+    "insertion",
+    "selection",
+    "quick"
+  ],
+  "author": "bryan alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evermuse/sorting-algorithms/issues"
+  },
+  "homepage": "https://github.com/evermuse/sorting-algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
