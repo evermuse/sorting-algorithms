@@ -3,7 +3,7 @@ var should = chai.should();
 
 describe('bubbleSort', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
 
     bubbleSort.should.be.a('function');
 
@@ -18,7 +18,7 @@ describe('bubbleSort', function() {
 
   });
 
-  it('return the array in sorted order', function() {
+  it('should return the array in sorted order', function() {
 
     expect(bubbleSort([5,2,7,4])).to.eql([2,4,5,7]);
 
@@ -28,9 +28,24 @@ describe('bubbleSort', function() {
 
 describe('quickSort', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
 
-    bubbleSort.should.be.a('function');
+    quickSort.should.be.a('function');
+
+  });
+
+  it('should take in an array as an argument', function() {
+
+    expect(quickSort.bind('string')).to.throw(Error);
+    expect(quickSort.bind(42)).to.throw(Error);
+    expect(quickSort.bind(undefined)).to.throw(Error);
+    expect(quickSort.bind(null)).to.throw(Error);
+
+  });
+
+  it('should return the array in sorted order', function() {
+
+    expect(quickSort([5,2,7,4])).to.eql([2,4,5,7]);
 
   });
 
@@ -38,9 +53,24 @@ describe('quickSort', function() {
 
 describe('mergeSort', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
 
-    bubbleSort.should.be.a('function');
+    mergeSort.should.be.a('function');
+
+  });
+
+  it('should take in an array as an argument', function() {
+
+    expect(mergeSort.bind('string')).to.throw(Error);
+    expect(mergeSort.bind(42)).to.throw(Error);
+    expect(mergeSort.bind(undefined)).to.throw(Error);
+    expect(mergeSort.bind(null)).to.throw(Error);
+
+  });
+
+  it('should return the array in sorted order', function() {
+
+    expect(mergeSort([5,2,7,4])).to.eql([2,4,5,7]);
 
   });
 
@@ -48,9 +78,24 @@ describe('mergeSort', function() {
 
 describe('insertionSort', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
 
-    bubbleSort.should.be.a('function');
+    insertionSort.should.be.a('function');
+
+  });
+
+  it('should take in an array as an argument', function() {
+
+    expect(insertionSort.bind('string')).to.throw(Error);
+    expect(insertionSort.bind(42)).to.throw(Error);
+    expect(insertionSort.bind(undefined)).to.throw(Error);
+    expect(insertionSort.bind(null)).to.throw(Error);
+
+  });
+
+  it('should return the array in sorted order', function() {
+
+    expect(insertionSort([5,2,7,4])).to.eql([2,4,5,7]);
 
   });
 
@@ -58,9 +103,24 @@ describe('insertionSort', function() {
 
 describe('selectionSort', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
 
-    bubbleSort.should.be.a('function');
+    selectionSort.should.be.a('function');
+
+  });
+
+  it('should take in an array as an argument', function() {
+
+    expect(selectionSort.bind('string')).to.throw(Error);
+    expect(selectionSort.bind(42)).to.throw(Error);
+    expect(selectionSort.bind(undefined)).to.throw(Error);
+    expect(selectionSort.bind(null)).to.throw(Error);
+
+  });
+
+  it('should return the array in sorted order', function() {
+
+    expect(selectionSort([5,2,7,4])).to.eql([2,4,5,7]);
 
   });
 
