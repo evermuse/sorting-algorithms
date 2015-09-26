@@ -1,8 +1,18 @@
-#bubbleSortContainer          {width: 620px;margin: 0 auto;border: 1px solid gray;padding: 0px 25px 25px 25px;margin-top: 20px;}
+#pageHeader                 {}
+#pageHeading                {}
+#pageSubHeading             {}
 
-#bubbleSortHeading            {text-align: center;font-family: helvetica; color: 111;}
+.sortTypeButton             {cursor: pointer;width: 1000px;height: 1000px;border: 1px solid gray;display: inline-block;margin: 0 auto;}
+.sortTypeButton:active      {position:relative; top:1px;}
 
-.bubbleSortBlock              {width: 40px; height: 40px;border: 1px solid gray;display: inline-block;text-align: center;margin:5px;padding: 5px}
+.sortContainer              {width: 620px;margin: 0 auto;border: 1px solid gray;padding: 0px 25px 25px 25px;margin-top: 20px;}
 
-#bubbleSortStartButton        {cursor:pointer;width:50px; height: 30px;position:relative;display:block;margin: 0 auto;background: white;margin-top: 25px;border: 1px solid gray;}
-#bubbleSortStartButton:active {position:relative; top:1px;}
+.sortHeading                {text-align: center;font-family: helvetica; color: 111;}
+
+.bubbleSortBlock            {width: 40px; height: 40px;border: 1px solid gray;display: inline-block;text-align: center;margin:5px;padding: 5px}
+
+.sortStartButton            {cursor:pointer;width:50px; height: 30px;position:relative;display:block;margin: 0 auto;background: white;margin-top: 25px;border: 1px solid gray;}
+.sortStartButton:active     {position:relative; top:1px;}
+
+.compareStartButton         {cursor:pointer;width:50px; height: 30px;position:relative;display:block;margin: 0 auto;background: white;margin-top: 25px;border: 1px solid gray;}
+.compareStartButton:active  {position:relative; top:1px;}
