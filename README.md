@@ -11,14 +11,17 @@ Simple sorting algorithm that repeatedly steps through the list to be sorted, co
 
 # Quick Sort
 
-Efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. [Wiki](https://en.wikipedia.org/wiki/Quicksort)
+Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.[Wiki](https://en.wikipedia.org/wiki/Quicksort)
 
 - O(n2) worst case performance
 - O(n log n)avergage performance
 
 # Merge Sort
 
-Mergesort is a divide and conquer algorithm that was invented by John von Neumann in 1945. [Wiki](https://en.wikipedia.org/wiki/Merge_sort)
+Mergesort is a divide and conquer algorithm that was invented by John von Neumann in 1945. [Wiki](https://en.wikipedia.org/wiki/Merge_sort) Conceptually, a merge sort works as follows:
+
+1 Divide the unsorted list into n sublists, each containing 1 element (a list of 1 element is considered sorted).
+2 Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.
 
 - O(n log n) worst case / avg performance
 

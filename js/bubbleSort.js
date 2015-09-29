@@ -18,7 +18,7 @@ function _bubbleSort(arr) {
     var nodeAtNext;
     var nodeToMove;
 
-    var bubbleSortBlocks = document.querySelectorAll('.bubbleSort')
+    var bubbleSortContainer = document.querySelector('#bubbleSortBlockContainer');
 
     for (var i = 0; i < arr.length; i++) {
 
@@ -30,8 +30,8 @@ function _bubbleSort(arr) {
 
         //similar to above set the current node and next node to enable DOM removal / insertion
 
-        currentNode = document.querySelector('bubblesort-block[data-id="' + i + '"]');
-        nodeAtNext = document.querySelector('bubblesort-block[data-id="' + [i + 1] + '"]');
+        currentNode = document.querySelector('bubble-sort-block[data-id="' + i + '"]');
+        nodeAtNext = document.querySelector('bubble-sort-block[data-id="' + [i + 1] + '"]');
 
         //assign current value to the next index position
 

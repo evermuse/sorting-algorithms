@@ -71,11 +71,6 @@ var sortModule = (function() {
     sortContainer.appendChild(sortBlockContainer);
     sortBlockContainer.className = 'sortBlockContainer';
 
-    //define new HTML element sort-block
-
-    var SortBlock = Object.create(HTMLElement.prototype);
-    document.registerElement('sort-block');
-
   }
 
   //sets the opening stage with header
@@ -161,11 +156,16 @@ var sortModule = (function() {
 
     var newContainer = document.querySelector('#' + sortName + 'SortBlockContainer');
 
+    //define new HTML element block elements specific to the sort
+
+    var SortBlock = Object.create(HTMLElement.prototype);
+    document.registerElement(sortName + '-sort-block');
+
     //instantiate the sort-block elements on the page for the length of the array and create the innerHTML from the sortArray
 
     for (var i = 0; i < sortArr.length; i++) {
 
-      var sortBlock = document.createElement('sort-block');
+      var sortBlock = document.createElement(sortName + '-sort-block');
 
       sortBlock.dataset.id = i;
       sortBlock.className = 'sortBlock ' + sortName + 'SortBlock';

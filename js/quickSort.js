@@ -1,5 +1,9 @@
 function _quickSort(arr) {
 
+  //set copy of initial array for later comparison
+
+  var previousArr = arr;
+
   //base case - return the array if it is of size 1 or less
 
   if (arr.length < 2) {
@@ -36,6 +40,25 @@ function _quickSort(arr) {
     }
 
   }
+
+  //visualization
+
+  // var currentArray = less.concat([pivot]).concat(more);
+
+  // for (var j = 0; j < currentArray.length; j++) {
+
+  //   if (currentArray[j] !== previousArr[j]) {
+
+  //     var nodeToMove = document.querySelector('merge-sort-block[data-id="' + previous[j] + '"]');
+
+
+
+
+  //     nodeToMove = mergeSortContainer.removeChild(previousArr[j]);
+
+  //   }
+
+  // }
 
   //call the function recursively on the less and more arrays while concating them to the pivot
 
