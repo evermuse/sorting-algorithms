@@ -1,5 +1,3 @@
-var arr = [5,4,2,9,8,7,3,6,1];
-
 function _insertionSort(arr) {
 
   var value,                    // the value currently being compared
@@ -31,5 +29,3 @@ function _insertionSort(arr) {
   return arr;
 
 }
-
-console.log(_insertionSort(arr));

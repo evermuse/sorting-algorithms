@@ -1,5 +1,3 @@
-var arr = [5,4,2,9,8,7,3,6,1];
-
 function _selectionSort(arr) {
 
   var min;
@@ -25,7 +23,6 @@ function _selectionSort(arr) {
     //if the minimum isn't in the position, swap it
 
     if (i != min) {
-
       var temp = arr[i];
       arr[i] = arr[min];
       arr[min] = temp;
@@ -37,5 +34,3 @@ function _selectionSort(arr) {
   return arr;
 
 }
-
-console.log(_selectionSort(arr));

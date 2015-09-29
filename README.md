@@ -24,12 +24,12 @@ Mergesort is a divide and conquer algorithm that was invented by John von Neuman
 
 # Insertion Sort
 
- Simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. [Wiki](https://en.wikipedia.org/wiki/Insertion_sort)
+Simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. [Wiki](https://en.wikipedia.org/wiki/Insertion_sort)
 
- - O(n2) worst case
+- O(n2) worst case
 
- # Selection Sort
+# Selection Sort
 
- Divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list.
+Divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list.
 
- - O(n2) worst case
+- O(n2) worst case

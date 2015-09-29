@@ -1,15 +1,19 @@
-#pageHeader                 {}
-#pageHeading                {}
-#pageSubHeading             {}
+*                           {font-family: helvetica;}
 
-.sortTypeButton             {cursor: pointer;width: 1000px;height: 1000px;border: 1px solid gray;display: inline-block;margin: 0 auto;}
+body                        {margin: 0 auto;}
+#titleHeading               {text-align: center;}
+#subTitleHeading            {text-align: center;}
+
+#buttonNav                  {text-align: center; margin-top: 50px;}
+.sortTypeButton             {cursor: pointer;width: 100px;height: 100px;border: 1px solid gray;display: inline-block;margin: 0 auto;text-align: center;position:relative;margin: 0px 5px 0px 5px;line-height: 100px;}
 .sortTypeButton:active      {position:relative; top:1px;}
 
-.sortContainer              {width: 620px;margin: 0 auto;border: 1px solid gray;padding: 0px 25px 25px 25px;margin-top: 20px;}
+.sortContainer              {width: 620px;margin: 0 auto;border: 1px solid gray;padding: 0px 25px 25px 25px;margin-top: 50px;}
 
 .sortHeading                {text-align: center;font-family: helvetica; color: 111;}
 
-.bubbleSortBlock            {width: 40px; height: 40px;border: 1px solid gray;display: inline-block;text-align: center;margin:5px;padding: 5px}
+.sortBlockContainer         {position:relative;display:block;text-align: center;}
+.sortBlock                  {width: 40px; height: 40px;border: 1px solid gray;display: inline-block;text-align: center;margin:5px;padding: 5px;line-height: 40px;}
 
 .sortStartButton            {cursor:pointer;width:50px; height: 30px;position:relative;display:block;margin: 0 auto;background: white;margin-top: 25px;border: 1px solid gray;}
 .sortStartButton:active     {position:relative; top:1px;}

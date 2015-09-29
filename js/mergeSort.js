@@ -1,5 +1,3 @@
-var arr = [5,4,2,9,8,7,3,6,1];
-
 function _mergeSort(arr) {
 
   if (arr.length < 2) {
@@ -27,5 +25,3 @@ function merge (a, b) {
   return result.concat(a.length ? a : b);
 
 }
-
-console.log(_mergeSort(arr));

@@ -1,6 +1,6 @@
 //bubble sort logic
 
-function _bubbleSort() {
+function _bubbleSort(arr) {
 
   //the swapped var will let be used to know when the sort is done
 
@@ -17,6 +17,8 @@ function _bubbleSort() {
     var currentNode;
     var nodeAtNext;
     var nodeToMove;
+
+    var bubbleSortBlocks = document.querySelectorAll('.bubbleSort')
 
     for (var i = 0; i < arr.length; i++) {
 

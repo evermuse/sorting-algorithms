@@ -1,5 +1,3 @@
-var arr = [5,4,2,9,8,7,3,6,1];
-
 function _quickSort(arr) {
 
   //base case - return the array if it is of size 1 or less
@@ -44,5 +42,3 @@ function _quickSort(arr) {
   return _quickSort(less).concat([pivot]).concat(_quickSort(more));
 
 }
-
-console.log(_quickSort(arr));
