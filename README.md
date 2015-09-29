@@ -11,7 +11,7 @@ Simple sorting algorithm that repeatedly steps through the list to be sorted, co
 
 # Quick Sort
 
-Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.[Wiki](https://en.wikipedia.org/wiki/Quicksort)
+Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting. [Wiki](https://en.wikipedia.org/wiki/Quicksort)
 
 - O(n2) worst case performance
 - O(n log n)avergage performance
@@ -33,6 +33,6 @@ Simple sorting algorithm that builds the final sorted array (or list) one item a
 
 # Selection Sort
 
-Divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list.
+Divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. [Wiki](https://en.wikipedia.org/wiki/Selection_sort)
 
 - O(n2) worst case
